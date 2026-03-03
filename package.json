@@ -1,0 +1,21 @@
+{
+  "name": "transformersjs-demos",
+  "version": "1.0.0",
+  "description": "Demo code for Node Congress 2026 talk: Forget OpenAI - Run Hugging Face Inside Your Node.js Process",
+  "type": "module",
+  "scripts": {
+    "demo1": "node demo1-sentiment/index.js",
+    "demo2": "node demo2-semantic-search/index.js",
+    "demo3": "node demo3-translation/index.js",
+    "demo4": "node demo4-text-generation/index.js",
+    "demo4:gpu": "node demo4-text-generation/index.js --gpu",
+    "benchmark": "node benchmark.js",
+    "benchmark:cpu": "node benchmark.js --cpu",
+    "benchmark:gpu": "node benchmark.js --gpu"
+  },
+  "dependencies": {
+    "@google-cloud/local-auth": "^3.0.1",
+    "@huggingface/transformers": "4.0.0-next.5",
+    "googleapis": "^171.4.0"
+  }
+}
