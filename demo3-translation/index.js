@@ -11,8 +11,8 @@ const translator = await pipeline(
 );
 
 const texts = [
-  'Hello, how are you doing?',
-  'The event loop is what allows Node.js to perform non-blocking I/O operations.',
+  'The weather today is sunny with a slight chance of rain in the afternoon.',
+  'She decided to take a walk in the park after finishing her work.',
 ];
 
 for (const text of texts) {
